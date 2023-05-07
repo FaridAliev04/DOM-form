@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="container_header">
+            WELCOME
+        </h1>
+        <form id="container_form" action="/">
+            <div class="container_input">
+                <input  placeholder="Username" class="username" type="text" name="name" id="name">
+                <label for="name">
+                    <img class="label_user" src="./svg/user-svgrepo-com.svg" alt="">
+                    <img class="label_user-none" src="./svg/user-close-svgrepo-com.svg" alt="">
+                    <img class="label_user-none " src="./svg/user-check-svgrepo-com.svg" alt="">
+
+                </label>
+                <div class="message"></div>
+            </div>
+            <div class="container_input">
+                <input placeholder="Email" class="email" type="email" name="email" id="email">
+                <label for="email">
+                    <img class="label_gmail" src="./svg/gmail-svgrepo-com.svg" alt="">
+                    <img class="label_gmail_none" src="./svg/gmail_dogru.svg" alt="">
+                    <img class="label_gmail_none" src="./svg/gmail_yanlis.svg" alt="">
+                </label>
+                <div class="message"></div>
+            </div>
+            <div class="container_input">
+                <input placeholder="Password" class="password" type="password" name="password" id="password">
+                <label for="password">
+                    <img class="label_password" src="./svg/password-lock-svgrepo-com.svg" alt="">
+                    <img class="label_password-none" src="./svg/password_dogru.svg" alt="">
+                    <img class="label_password-none" src="./svg/password_yanlis.svg" alt="">
+                </label>
+                <div class="message"></div>
+            </div>
+
+            <button class="container_button" type="submit"> Submit</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
