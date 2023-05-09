@@ -17,14 +17,12 @@
             <div class="container_input">
                 <input  placeholder="Username" class="username" type="text" name="name" id="name">
                 <label for="name">
-                    <img class="label_user" src="./svg/user-svgrepo-com.svg" alt="">
-                    <img class="label_user-none" src="./svg/user-close-svgrepo-com.svg" alt="">
-                    <img class="label_user-none " src="./svg/user-check-svgrepo-com.svg" alt="">
+                    <i id="userIcon" class="fa-regular fa-user icon"></i>
 
                 </label>
                 
             </div>
-            <div class="message" ></div>
+            <div id="userError" class="message" ></div>
 
 
 
@@ -32,7 +30,7 @@
                 <input placeholder="Email" class="email" type="text" name="email" id="email">
                 <label for="email">
                     <!-- <img class="label_user" src="./svg/gmail-svgrepo-com.svg" alt=""> -->
-                    <i class="fa-regular fa-envelope" id="gmailIcon"></i>
+                    <i class="fa-regular fa-envelope icon" id="gmailIcon"></i>
                 </label>
                 
             </div>
@@ -44,13 +42,13 @@
             <div class="container_input">
                 <input placeholder="Password" class="password" type="password" name="password" id="password">
                 <label for="password">
-                    <img class="label_user" src="./svg/password-lock-svgrepo-com.svg" alt="">
-                    <img class="label_user-none" src="./svg/password_dogru.svg" alt="">
-                    <img class="label_user-none" src="./svg/password_yanlis.svg" alt="">
+                    <button type="button" id="password_icon-block">
+                    <i class="fa-regular fa-eye icon"></i>
+                    <i class="fa-regular fa-eye-slash icon icon_none"></i></button>
                 </label>
                 
             </div>
-            <div class="message"></div>
+            <div id="passwordError" class="message"></div>
 
             <button class="container_button" type="submit"> Submit</button>
             

@@ -23,12 +23,12 @@ form{
     text-align: center;
     color: white;
 }
-.label_user{
+.icon{
     width: 1.2rem;
     height: 1.2rem;
-    margin-top: 20px;
+  
 }
-.label_user-none{
+.icon_none{
     display: none;
 }
 .label-block{
@@ -37,23 +37,7 @@ form{
     height: 1.2rem;
     margin-top: 20px;
 }
-.label_gmail{
-    background-color: white;
-    width: 1.2rem;
-    height: 1.2rem; 
-    margin-top: 20px;
-}
-.label_gmail_none{
-    display: none;
-}
-.label_password{
-    width: 1.2rem;
-    height: 1.2rem;  
-    margin-top: 20px;
-}
-.label_password-none{
-    display: none;
-}
+
 input{
 padding-top: 10px;
 padding-bottom: 10px;
@@ -66,12 +50,25 @@ margin-top: 15px;
 .container_input{
     display: flex;
 }
+#password_icon-block{
+    background-color: white;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    cursor: pointer;
+}
+.message{
+    color: red;
+
+}
 
 label{
     position: relative;
-    right: 30px;
+    right: 25px;
+    top: 25px;
 }
-button{
+.container_button{
     padding-left: 20px;
     padding-right: 20px;
     padding-top:10px;
